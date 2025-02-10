@@ -1,0 +1,91 @@
+/* Background tema galaksi */
+body {
+    font-family: Arial, sans-serif;
+    background: url('https://source.unsplash.com/1600x900/?galaxy,space') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container chat */
+.chat-container {
+    width: 100%;
+    max-width: 400px;
+    margin: 50px auto;
+    background: rgba(20, 20, 20, 0.9); /* Transparan gelap */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+}
+
+/* Judul */
+h1 {
+    color: #00c3ff;
+    text-shadow: 0 0 10px rgba(0, 195, 255, 0.8);
+}
+
+/* Chat box */
+.chat-box {
+    height: 300px;
+    overflow-y: auto;
+    padding: 10px;
+    border-radius: 5px;
+    background: rgba(50, 50, 50, 0.8);
+    text-align: left;
+    border: 1px solid #00c3ff;
+}
+
+/* Pesan bot & user */
+.bot-message, .user-message {
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    max-width: 80%;
+    font-size: 14px;
+}
+
+.bot-message {
+    background: rgba(0, 195, 255, 0.6);
+    align-self: flex-start;
+    color: black;
+}
+
+.user-message {
+    background: rgba(100, 255, 100, 0.6);
+    align-self: flex-end;
+    text-align: right;
+    color: black;
+}
+
+/* Input container */
+.input-container {
+    display: flex;
+    margin-top: 10px;
+}
+
+input {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    background: rgba(50, 50, 50, 0.8);
+    color: white;
+    border: 1px solid #00c3ff;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    background: #00c3ff;
+    color: black;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background: #0091cc;
+}
